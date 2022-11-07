@@ -13,7 +13,7 @@ const dayjs = require('dayjs');
         }).join(";");
 
         // create date time string after 1 minute
-        let pickupTimeAfterOneMuite = dayjs().add(1,'Minute').format("YYYY-MM-DDTHH:mm:ss.SSSZ");
+        let pickupTimeAfterOneMuite = dayjs().add(1.5,'Minute').format("YYYY-MM-DDTHH:mm:ss.SSSZ");
 
         cy.request({
           method: 'POST',
