@@ -1,0 +1,6 @@
+{
+    "selectors": {
+      "refundPackageButton": "div[class='ReactModal__Content ReactModal__Content--after-open c7fxcIVr '] button[class='IRQmBDf3 _2bOG6YVT']",
+      "testingScenariosButton": "button#ScenarioTooltipCloseButton"
+    }
+}

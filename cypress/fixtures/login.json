@@ -1,0 +1,12 @@
+{
+  "selectors": {
+    "email": "input[type='email']",
+    "password": "input[type='password']",
+    "loginButton": "button[type='submit']",
+    "refundPackageButton": "div[class='ReactModal__Content ReactModal__Content--after-open c7fxcIVr '] button[class='IRQmBDf3 _2bOG6YVT']"
+  },
+  "testData": {
+    "email": "strt.wa+test@gmail.com",
+    "password": "Test!234"
+  }
+}  

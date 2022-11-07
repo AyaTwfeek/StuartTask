@@ -1,0 +1,5 @@
+{
+    "selectors": {
+      "ongoingOrderIdLabel": "div#activeJobsCards div[class='_1h0M9+el n-PVJij4']"
+    }
+}  
