@@ -12,23 +12,27 @@ let page = new PageInteractions();
    before(function() {
      cy.fixture('login.json').as('login');
      cy.fixture('ongoing-jobs.json').as('ongoing');
+     cy.fixture('home-tabBar.json').as('homeTabBar');
    });
  
    describe('When the job should start after 1.5 minute', function() {
      it('The job should created in schedule section then move to ongoing', function() {
+      
       cy.viewport("macbook-16");
+      
       cy.login(this.login.testData.email, this.login.testData.password);
       cy.dismissHomePopups();
+      
       cy.createScheduleJobAfterOneMinute((jobId)=>{
         cy.wait(1000);
         cy.visit("/scheduled");
         page.assertExistance("span#jobId-"+jobId+"\\}");
         cy.wait(60000);
-        cy.visit("/active?job"+jobId);
-        page.checkText(this.ongoing.ongoingOrderIdLabel, "#"+jobId);
+        page.clickButton(this.homeTabBar.selectors.onogingTap);
+        page.checkText(this.ongoing.selectors.ongoingOrderIdLabel, "#"+jobId);
       });
 
      });
    });
  });
-
+//  cancelJobButton-100353706

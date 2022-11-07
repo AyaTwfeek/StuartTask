@@ -12,7 +12,7 @@
      * This is the method to click elem
      */
     clickButton(selector, timeout) {
-      this.getElement(selector, timeout).click();
+      this.getElement(selector, timeout).click({force: true});
     }
   
     /**

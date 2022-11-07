@@ -1,0 +1,5 @@
+{
+    "selectors": {
+      "onogingTap": "a[href='\\/active']"
+    }
+}
