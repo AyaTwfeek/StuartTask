@@ -8,15 +8,15 @@ const dayjs = require('dayjs');
 let page = new PageInteractions();
 
 
- describe('Login Tests', function() {
+ describe('Create Schedule Job', function() {
    before(function() {
      cy.fixture('login.json').as('login');
      cy.fixture('ongoing-jobs.json').as('ongoing');
    });
  
-   describe('Happy scenarios for default login', function() {
-     it('Check login with valid credentials', function() {
-      
+   describe('When the job should start after 1.5 minute', function() {
+     it('The job should created in schedule section then move to ongoing', function() {
+      cy.viewport("macbook-16");
       cy.login(this.login.testData.email, this.login.testData.password);
       cy.dismissHomePopups();
       cy.createScheduleJobAfterOneMinute((jobId)=>{

@@ -43,10 +43,10 @@ const dayjs = require('dayjs');
                       comment: "Floor 3, Apartment 3",
                       contact: {
                         company: "",
-                        firstname: "Aya",
-                        lastname: "Twfeek",
-                        phone: "+34680206693",
-                        email: "aya.twfeek32@gmail.com"
+                        firstname: "Nany",
+                        lastname: "Ratich",
+                        phone: "+34345634567",
+                        email: "nany.me@gmail.com"
                       }
                     }
                   ],
@@ -56,10 +56,10 @@ const dayjs = require('dayjs');
                       comment: "Floor 3 Apartment 3",
                       contact: {
                         company: "",
-                        firstname: "Omar",
-                        lastname: "Tarek",
-                        phone: "+34626268926",
-                        email: "dev.omartarek@gmail.com"
+                        firstname: "Monika",
+                        lastname: "Albert",
+                        phone: "+34223456456",
+                        email: "monalbert@gmail.com"
                       },
                       clientReference: "Desk Monitor ",
                       packageDescription: "LCD Screen 22 inch"
