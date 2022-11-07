@@ -10,7 +10,11 @@ Since the creating a schedule job from the UI require us to wait for at least 15
 so the approch will be simplly create a schedule job after 1 minute from now and after that one minute we can procced with our assertions.
 
 ## Prerequisites of the project
-- you need to have the [Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=EAIaIQobChMIqKGnpfWa-wIVYY9oCR2nlwAOEAAYASAAEgLhS_D_BwE&gclsrc=aw.ds) browser installed in your maching
+- you need to have the [Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=EAIaIQobChMIqKGnpfWa-wIVYY9oCR2nlwAOEAAYASAAEgLhS
+
+
+
+_D_BwE&gclsrc=aw.ds) browser installed in your maching
 - install [node.js](https://nodejs.org/en/download/), if you are using macOS and you have HomeBrew installed in your mchine just run ```brew install node``` as shown [here](https://changelog.com/posts/install-node-js-with-homebrew-on-os-x)
 
 ## How to setup the proejct
@@ -20,3 +24,9 @@ so the approch will be simplly create a schedule job after 1 minute from now and
 ## How to run the project
 - run ```npx cypress run --browser chrome```
 - open StuartTask/Cypress/Videos directory if you want to see the out put video
+
+## Test Results
+### Video
+https://user-images.githubusercontent.com/115746384/200223194-38bb0653-bdf1-4451-8a87-d59fd7b3c670.mp4
+### Screenshot
+![Screenshot](https://user-images.githubusercontent.com/115746384/200223084-960ef1a0-3994-4501-b30b-bcfa80331525.png)
