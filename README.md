@@ -10,11 +10,7 @@ Since the creating a schedule job from the UI require us to wait for at least 15
 so the approch will be simplly create a schedule job after 1 minute from now and after that one minute we can procced with our assertions.
 
 ## Prerequisites of the project
-- you need to have the [Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=EAIaIQobChMIqKGnpfWa-wIVYY9oCR2nlwAOEAAYASAAEgLhS
-
-
-
-_D_BwE&gclsrc=aw.ds) browser installed in your maching
+- you need to have the [Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=EAIaIQobChMIqKGnpfWa-wIVYY9oCR2nlwAOEAAYASAAEgLhS_D_BwE&gclsrc=aw.ds) browser installed in your maching
 - install [node.js](https://nodejs.org/en/download/), if you are using macOS and you have HomeBrew installed in your mchine just run ```brew install node``` as shown [here](https://changelog.com/posts/install-node-js-with-homebrew-on-os-x)
 
 ## How to setup the proejct
